@@ -1,75 +1,162 @@
-# Sirigaita Bot 🐍🎮
+Aqui vai uma **versão melhorada, mais profissional e organizada do README**, mantendo o tom simples, mas com cara de projeto sólido de GitHub 🚀
 
-Bot em Python para automação de batalhas em jogos (ex: Pokémon),
-utilizando reconhecimento de imagem e hotkeys configuráveis.
+Você pode **copiar e colar direto** no `README.md`.
 
 ---
 
-## ✨ Funcionalidades
+# 🐍🎮 Sirigaita Bot
 
-- 📸 Detecção visual de mudança na tela
-- 🎯 Execução automática de hotkeys (Target, Buff, Attack, Heal)
-- 💾 Salva configurações automaticamente (hotkeys + área)
-- 🖥️ Interface gráfica em Tkinter
-- 📦 Executável `.exe` (não precisa Python instalado)
+**Sirigaita Bot** é um bot em **Python** para automação de batalhas em jogos (ex: Pokémon), utilizando **reconhecimento de imagem** e **hotkeys configuráveis**.
+Ideal para quem deseja automatizar ações repetitivas de forma simples e eficiente.
+
+---
+
+## 🚀 Principais Recursos
+
+* 📸 **Detecção visual inteligente** de mudanças na tela
+* 🎯 **Execução automática de hotkeys** (Target, Buff, Attack, Heal)
+* 💾 **Salvamento automático de configurações** (hotkeys e área da tela)
+* 🖥️ **Interface gráfica intuitiva** desenvolvida em Tkinter
+* 📦 **Executável (.exe)** — não requer Python instalado
+* ⚡ Baixo consumo de recursos e execução estável
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python 3
-- Tkinter
-- OpenCV
-- PyAutoGUI
-- pynput
-- PyInstaller
+* **Python 3**
+* **Tkinter** — Interface gráfica
+* **OpenCV** — Reconhecimento de imagem
+* **PyAutoGUI** — Automação de teclado e mouse
+* **pynput** — Captura de hotkeys
+* **PyInstaller** — Geração do executável
 
 ---
 
-## ▶️ Como Usar (Python)
+## ▶️ Como Usar (Modo Python)
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/DavidDev0x/sirigaita-bot.git
-Crie e ative um ambiente virtual
+### 1️⃣ Clone o repositório
 
-Instale as dependências:
+```bash
+git clone https://github.com/DavidDev0x/sirigaita-bot.git
+cd sirigaita-bot
+```
 
+### 2️⃣ Crie e ative um ambiente virtual (opcional, recomendado)
+
+```bash
+python -m venv venv
+```
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+source venv/bin/activate
+```
+
+### 3️⃣ Instale as dependências
+
+```bash
 pip install -r requirements.txt
+```
 
+### 4️⃣ Execute o bot
 
-Execute:
-
+```bash
 python main.py
+```
 
-▶️ Como Usar (Executável)
+---
 
-Baixe o arquivo SirigaitaBot.exe
+## ▶️ Como Usar (Executável `.exe`)
 
-Execute normalmente
+1. Baixe o arquivo **`SirigaitaBot.exe`**
+2. Execute normalmente (duplo clique)
+3. Configure as **hotkeys**
+4. Selecione a **área da batalha**
+5. Inicie o bot 🎮
 
-Configure as hotkeys
+📁 Todas as configurações são salvas automaticamente no arquivo:
 
-Selecione a área de batalha
+```text
+config.json
+```
 
-Inicie o bot
+---
 
-As configurações são salvas automaticamente no arquivo config.json.
+## ⚠️ Observações Importantes
 
-⚠️ Observações Importantes
+* O jogo deve estar em **modo janela**
+* Utilize preferencialmente o **monitor principal**
+* Caso a **resolução da tela mude**, será necessário selecionar a área novamente
+* Execute como **Administrador** caso o bot não detecte hotkeys corretamente
 
-O jogo deve estar em modo janela
+---
 
-Recomenda-se usar o monitor principal
+## 📦 Gerar o Executável (.exe)
 
-Caso a resolução mude, selecione a área novamente
+### 1️⃣ Instale o PyInstaller
 
-📦 Gerar o Executável
-Instale o PyInstaller (se ainda não tiver):
-
+```bash
 pip install pyinstaller
+```
 
-Gere o executável:
+### 2️⃣ Gere o executável
 
+```bash
 python -m PyInstaller --onefile --windowed --name SirigaitaBot --icon=icon.ico main.py
-O executável será gerado na pasta dist/.
+```
+
+📂 O arquivo final será gerado na pasta:
+
+```text
+/dist/SirigaitaBot.exe
+```
+
+---
+
+## 🧠 Estrutura do Projeto
+
+```text
+sirigaita-bot/
+│
+├── main.py
+├── config.json
+├── requirements.txt
+├── icon.ico
+├── /src
+├── /dist
+└── README.md
+```
+
+---
+
+## 📜 Aviso Legal
+
+Este projeto é destinado **exclusivamente para fins educacionais**.
+O uso em jogos online pode violar os termos de serviço do jogo.
+Use por sua conta e risco.
+
+---
+
+## ⭐ Contribuições
+
+Pull requests são bem-vindos!
+Se tiver ideias, melhorias ou correções, fique à vontade para contribuir.
+
+---
+
+Se quiser, posso:
+
+* 🔥 Criar um **README com badges**
+* 📸 Gerar **prints da interface**
+* 🧾 Montar **Release Notes**
+* 🧰 Ajustar para padrão **Open Source profissional**
+
+É só falar 😈
