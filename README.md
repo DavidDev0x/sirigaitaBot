@@ -152,11 +152,4 @@ Se tiver ideias, melhorias ou correções, fique à vontade para contribuir.
 
 ---
 
-Se quiser, posso:
 
-* 🔥 Criar um **README com badges**
-* 📸 Gerar **prints da interface**
-* 🧾 Montar **Release Notes**
-* 🧰 Ajustar para padrão **Open Source profissional**
-
-É só falar 😈
