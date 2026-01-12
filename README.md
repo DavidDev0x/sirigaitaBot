@@ -1,6 +1,3 @@
-Aqui vai uma **versão melhorada, mais profissional e organizada do README**, mantendo o tom simples, mas com cara de projeto sólido de GitHub 🚀
-
-Você pode **copiar e colar direto** no `README.md`.
 
 ---
 
