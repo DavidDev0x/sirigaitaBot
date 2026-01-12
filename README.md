@@ -6,7 +6,7 @@ Você pode **copiar e colar direto** no `README.md`.
 
 # 🐍🎮 Sirigaita Bot
 
-**Sirigaita Bot** é um bot em **Python** para automação de batalhas em jogos (ex: Pokémon), utilizando **reconhecimento de imagem** e **hotkeys configuráveis**.
+**Sirigaita Bot** é um bot em **Python** para automação de batalhas em jogos (ex: Pokétibias como OTPokémon), utilizando **reconhecimento de imagem** e **hotkeys configuráveis**.
 Ideal para quem deseja automatizar ações repetitivas de forma simples e eficiente.
 
 ---
